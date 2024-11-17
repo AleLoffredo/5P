@@ -1,0 +1,88 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Pagina-1" id="Zsp0hwltOmGtSdYzQb-V">
+    <mxGraphModel dx="1480" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERmany;startFill=0;endSize=10;startSize=10;" edge="1" parent="1" source="40xsYhaE1EBLsvtiyYBZ-1" target="40xsYhaE1EBLsvtiyYBZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Automobile&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;targa(PK)&lt;br&gt;proprietario&lt;br&gt;modello&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="290" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="40xsYhaE1EBLsvtiyYBZ-2" target="40xsYhaE1EBLsvtiyYBZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Cod.fiscale(PK)&lt;br&gt;telefono&lt;br&gt;nome&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;cognome&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-4" value="proprietà" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="298" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERone;startFill=0;endSize=10;startSize=10;" edge="1" parent="1" source="40xsYhaE1EBLsvtiyYBZ-5" target="40xsYhaE1EBLsvtiyYBZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;interventi&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data inizio&lt;br&gt;data fine&lt;br&gt;ore di manodopera&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;numero progressivo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERone;startFill=0;exitX=0.392;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;endSize=10;startSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="992.72" y="386.0199999999999" as="sourcePoint" />
+            <mxPoint x="730" y="584.2" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="386.2" />
+              <mxPoint x="1020" y="509.2" />
+              <mxPoint x="840" y="509.2" />
+              <mxPoint x="840" y="584.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Officina&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Nome(PK)&lt;br&gt;telefono&lt;br&gt;indirizzo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="930" y="290" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-9" value="esec.Lavori" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="298" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-11" value="commessa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="428" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-13" value="Riparazione" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="450" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-14" value="NumeroProgressivo(PK)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="448" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;endSize=10;startSize=10;" edge="1" parent="1" source="40xsYhaE1EBLsvtiyYBZ-15" target="40xsYhaE1EBLsvtiyYBZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Pezzi di ricambio&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Codice(PK)&lt;br&gt;nome&lt;br&gt;costo unitario&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-17" value="utilizzo&lt;div&gt;quantità&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="513" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-18" value="Cliente(&lt;font color=&quot;#f00000&quot;&gt;&lt;u&gt;Codice fisc&lt;/u&gt;.,&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;telefono,nome,cognome)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="698" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-19" value="Automobile(&lt;font style=&quot;&quot; color=&quot;#f00000&quot;&gt;&lt;u&gt;targa&lt;/u&gt;&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;u&gt;,&lt;/u&gt;Proprietario, modello,&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#f00000&quot;&gt;Cod.Fis.Cliente&lt;/font&gt;&lt;font style=&quot;text-decoration-line: underline;&quot; color=&quot;#ffffff&quot;&gt;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="738" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-20" value="Officina(&lt;font style=&quot;text-decoration-line: underline;&quot; color=&quot;#ff0000&quot;&gt;Nome&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;u&gt;,&lt;/u&gt;telefono,indirizzo&lt;u&gt;)&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="778" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-21" value="Interventi(Data inizio, Data fine, ore di manodopera,&lt;font color=&quot;#ff0000&quot;&gt;numero&lt;/font&gt;&lt;font color=&quot;#f00000&quot;&gt; progressivo(fk),NomeOfficina,Targa Automobile&lt;/font&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="808" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-22" value="Pezzi di ricambio(&lt;font style=&quot;text-decoration-line: underline;&quot; color=&quot;#ff0000&quot;&gt;Codice&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#ffffff&quot;&gt;&lt;u&gt;,&lt;/u&gt;nome, costo unitario&lt;u&gt;)&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="848" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-23" value="Esec.Lavori(&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Targa Automobile,NomeOfficina&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;)&lt;/font&gt;&lt;/u&gt;&lt;div&gt;&lt;u style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/u&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="683" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="40xsYhaE1EBLsvtiyYBZ-24" value="Utilizzo(quantità,&lt;font color=&quot;#f00000&quot;&gt;CodicePez.Ric&lt;/font&gt;&lt;font color=&quot;#ffffff&quot;&gt;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
